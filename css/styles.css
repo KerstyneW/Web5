@@ -31,23 +31,15 @@ h1 {
 } 
 /* Set h2 parameters here, plan to use in pages */
 h2{
-    font-size: 36px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 /* Set h3 parameters here, plan to use in pages */
 h3{
     font-size: 24px;
 }
-/* Set h4 parameters here */
-h4 {
-	color: #ffffff; 
-	text-shadow: 2px 2px 5px #000000;
-    font-size: 20px;
-}
 
-h5 {
-    font-size: 16px;
-    margin: 5px 0;
-}
 /* Set p parameters here */
 p {
 	color: #000000; 
@@ -81,11 +73,11 @@ p {
     }
 }
 /* Parameters for mission statement on landing page*/
-.missionstatement{
+.appname{
 	padding-top: 20px;
 	padding-bottom: 40px;
-    margin-left: 100px;
-    margin-right:100px;
+    margin-left: 90px;
+    margin-right:90px;
     text-align:justify; 
 } /* End of this portion of Owner: Kerstyne */
 /*Container for Services section on landing page. 
