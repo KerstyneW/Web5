@@ -6,7 +6,7 @@ body {
     height: 100%;
 }	
 footer{
-    background-color: #c397d1; 
+    background-color: #558b43; 
     text-align: center;
     padding-bottom: 1px;
 }
@@ -80,6 +80,14 @@ p {
     margin-left: 80px;
     margin-right: 80px;
 }
+
+/* Nav Bar styles */
+.Navbar {
+    list-style-type: none;
+    background-color:#f89b10;
+    
+}
+
 /*Container for Projects section on landing page, owner: Jade*/
 .flex-containerProjects {
     display: flex;
