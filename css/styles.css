@@ -29,18 +29,16 @@ h1 {
 	text-shadow: 2px 2px 5px #000000;
     margin: 25px;
 } 
-/* Set h2 parameters here, plan to use in pages */
 h2{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
-/* Set h3 parameters here, plan to use in pages */
 h3{
     font-size: 24px;
+    font-weight: bold;
+    text-align: center;
 }
-
-/* Set p parameters here */
 p {
 	color: #000000; 
     font-family: 'Nunito Sans', sans-serif;
@@ -75,29 +73,10 @@ p {
 /* Parameters for mission statement on landing page*/
 .appname{
 	padding-top: 20px;
-	padding-bottom: 40px;
     margin-left: 90px;
     margin-right:90px;
     text-align:justify; 
-} /* End of this portion of Owner: Kerstyne */
-/*Container for Services section on landing page. 
-    as well as classes for the elements within it. Owner: Zachary Masson*/
-.flex-containerServ {display:flex;flex-wrap:wrap;background-color:#DBCCE0;justify-content:center;margin:30px;
-}
-.flex-containerServ > div {background-color:#c397d1;width:33%;margin:10px;text-align:center;font-size:1.5vw;border-radius:10%;padding:10px;height:auto;
-}
-.ServTitle {color:#000000;font-family:'Nunito Sans',sans-serif;font-size:2vw; 
-}
-.ServImg{max-width:25%;float:left;filter:hue-rotate(90deg);
-}
-.ServInfo {color:#000000;font-family:'Nunito Sans',sans-serif;font-size: 1.5vw;
-}
-@media only screen and (max-width: 800px) {
-    .flex-containerServ{flex-direction: column;}
-    .flex-containerServ > div{width: 90%; border-radius: 5%;}
-    .ServTitle {font-size: 2em;}
-    .ServInfo {font-size: 1.5em;}
-}
+} 
 /*Hero image for project form/ offices. Image taken by Zachary in June 2021 in Hope British Columbia owner-Zachary*/
 .heroimageProjOf{background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/Hope_BB.jpg"); position: relative;
     filter: hue-rotate(90deg); height: 100%; background-position: center;
