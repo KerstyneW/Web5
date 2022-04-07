@@ -9,12 +9,13 @@ footer{
     background-color: #558b43; 
     text-align: center;
     padding-bottom: 1px;
+    padding: 30px;
 }
 /* Set h1 parameters here */
 h1 {
 	color:#ffff; 
 	font-family: 'Garamond', cursive;
-	font-size: 80px;
+	font-size: 60px;
 	font-weight: lighter;
 	text-shadow: 2px 2px 5px #000000;
     margin: 25px;
@@ -79,6 +80,7 @@ p {
     border-color:#558b43;
     margin-left: 80px;
     margin-right: 80px;
+    margin-bottom: 30px;
 }
 
 /* Nav Bar styles: reference https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_navbar*/
@@ -99,6 +101,27 @@ p {
 .NavBar a:hover {
     background-color:#aed4a1;
     color: black;
+}
+
+/* Footer link style */
+.PEC {
+    color:#ffff;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+/* Linkedin button taken from https://github.com/KerstyneW/a3web/blob/main/css/styles.css*/
+.linkedinbutton{
+    transition-duration: 0.4s;
+    color: rgb(29, 28, 28); 
+    background-color:#aed4a1;
+    border: none;
+    font-size: 25px;
+
+}
+.linkedinbutton:hover{
+    color: #0a66c2;
+    cursor: pointer;
 }
 
 /*Container for Projects section on landing page, owner: Jade*/
