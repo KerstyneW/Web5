@@ -65,7 +65,7 @@ p {
 }
 /* Parameters for mission statement on landing page*/
 .appname{
-	padding-top: 20px;
+	padding-top: 60px;
     margin-left: 90px;
     margin-right:90px;
     text-align:justify; 
@@ -81,10 +81,24 @@ p {
     margin-right: 80px;
 }
 
-/* Nav Bar styles */
+/* Nav Bar styles: reference https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_navbar*/
 .Navbar {
-    list-style-type: none;
-    background-color:#f89b10;  
+    overflow: hidden;
+    background-color:#dcdfdb;  
+}
+
+.NavBar a {
+    float: left;
+    display: block;
+    color:#ffff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.NavBar a:hover {
+    background-color:#aed4a1;
+    color: black;
 }
 
 /*Container for Projects section on landing page, owner: Jade*/
