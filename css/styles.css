@@ -111,7 +111,7 @@ p {
 }
 
 /* Linkedin button taken from https://github.com/KerstyneW/a3web/blob/main/css/styles.css*/
-.linkedinbutton{
+.linkedinbutton {
     transition-duration: 0.4s;
     color: rgb(29, 28, 28); 
     background-color:#aed4a1;
@@ -119,9 +119,12 @@ p {
     font-size: 25px;
 
 }
-.linkedinbutton:hover{
+.linkedinbutton:hover {
     color: #0a66c2;
     cursor: pointer;
+}
+.webmap {
+    float: right;
 }
 
 /*Container for Projects section on landing page, owner: Jade*/
