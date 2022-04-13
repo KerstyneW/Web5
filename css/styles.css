@@ -32,6 +32,11 @@ h3{
     text-align: center;
     color: #e0d8d8;
 }
+h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #e0d8d8;  
+}
 p {
 	color: #000000; 
     font-family: 'Verdana', sans-serif;
