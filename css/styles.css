@@ -23,7 +23,7 @@ h2{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    color: #558b43
+    color: #558b43;
 }
 h3{
     font-size: 24px;
@@ -145,4 +145,12 @@ p {
     padding: 25px;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+/* reference: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_colors */
+.herelink:link {
+    color: #558b43;
+    text-decoration: none;
+}
+.herelink:hover {
+    color: #ffff;
 }
