@@ -11,7 +11,6 @@ footer{
     padding-bottom: 1px;
     padding: 30px;
 }
-/* Set h1 parameters here */
 h1 {
 	color:#ffff; 
 	font-family: 'Garamond', cursive;
@@ -43,7 +42,7 @@ p {
     font: 12px;
     color: #e0d8d8;
 }
-/* Parameters to have Company Name overtop of hero image, Owner Kerstyne*/
+/* Parameters to have Company Name overtop of hero image*/
 .heroimagetitle {
 	position:absolute;
 	left:0;
@@ -69,7 +68,7 @@ p {
         height: 250px;
     }
 }
-/* Parameters for mission statement on landing page*/
+/* Parameters for web page titles and divs*/
 .appname{
 	padding-top: 60px;
     margin-left: 90px;
@@ -117,7 +116,7 @@ p {
     color: black;
 }
 
-/* Footer link style */
+/* Footer style */
 .PEC {
     color:#ffff;
     font-size: 15pt;
@@ -138,38 +137,12 @@ p {
     cursor: pointer;
 }
 
-/*Container for Projects section on landing page, owner: Jade*/
-.flex-containerProjects {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #DBCCE0;
-    justify-content: center;
-    margin: 30px;
-}
-.flex-containerProjects > div {
-    background-color: #f1f1f1;
-    width: 10%;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    font-size: 10px;
-    flex-wrap: wrap;
-    border-radius: 20%;
-}
-.ProjectsImg {
-      max-width:100%;
-      height:auto;
-      border: 1px solid #a5d097; /*Colour here set because hue rotate effects border colour too - using this colour results in desired colour for border.*/
-      border-radius:50%;
-      filter:hue-rotate(180deg);
-}
-/*Responsive styling for projects section, owner: Jade*/
-@media only screen and (max-width: 1200px) {
-    .flex-containerProjects {
-        margin: 0;
-    }
-	.flex-containerProjects > div {
-    width: 30%;
-    margin: 10px;
-  }
+/* Web app button design */
+.webappbutton {
+    color: rgb(255, 255, 255);
+    background-color: rgba(4, 59, 122, 0.658);
+    font-size: 50px;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }

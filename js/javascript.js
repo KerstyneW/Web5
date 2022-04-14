@@ -8,3 +8,6 @@ function LinkedinJL(){
 function LinkinJK(){
     window.open('https://www.linkedin.com/in/james-kwasnicki-481a20221/')
 }
+function Webapp() {
+    window.open('')
+}
