@@ -47,10 +47,10 @@ p {
 .heroimagetitle {
 	position:absolute;
 	left:0;
-	bottom:0
+	bottom:0;
 }
 .heroimagecontainercontainer{
-    height: 500px;
+    height: 300px;
 }
 /* Parameters to contain the hero image*/
 .heroimagecontainer{
@@ -81,8 +81,6 @@ p {
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    border: dotted;
-    border-color:#558b43;
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 30px;
@@ -93,8 +91,6 @@ p {
     padding-bottom: 25px;
     padding-left: 20px;
     padding-right: 20px;
-    border: dotted;
-    border-color:#558b43;
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 30px;
